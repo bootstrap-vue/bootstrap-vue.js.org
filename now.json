@@ -1,6 +1,8 @@
 {
   "version": 2,
   "redirects": [
+    { "source": "/docs/misc", "destination": "https://bootstrap-vue.org/docs/reference", "statusCode": 301 },
+    { "source": "/docs/misc/(.*)", "destination": "https://bootstrap-vue.org/docs/reference/$1", "statusCode": 301 },
     { "source": "/(.*)", "destination": "https://bootstrap-vue.org/$1", "statusCode": 301 }
   ]
 }
